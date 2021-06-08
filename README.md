@@ -20,4 +20,3 @@ Additionally it would be nice to implement:
   - Cross-browser compatibility (explicitly state which browsers are supported and to what level);
   - Support for mobile browsers (iOS and or Android) with specialized mobile layout;
   - Ability to remove users.
-  - 
