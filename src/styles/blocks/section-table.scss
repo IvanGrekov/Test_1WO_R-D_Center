@@ -1,0 +1,9 @@
+.section-table {
+  min-height: $section-table-min-height;
+
+  &__title {
+    margin-bottom: 40px;
+
+    color: $main-color;
+  }
+}

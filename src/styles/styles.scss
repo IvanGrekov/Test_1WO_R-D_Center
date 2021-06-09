@@ -1,0 +1,10 @@
+@import "utils";
+@import "font";
+@import "blocks.scss";
+
+body {
+  width: 1200px;
+  min-width: 320;
+  margin: 40px auto;
+  padding: 0 40px;
+}

@@ -1,0 +1,72 @@
+.user-info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  color: black;
+
+  &__contacts {
+    padding: 15px;
+
+    @extend %standard-border;
+  }
+
+  &__name {
+    margin-bottom: 10px;
+  }
+
+  &__username {
+    margin-bottom: 20px;
+  }
+
+  &__contact-data-wrapper {
+    display: block;
+    margin-bottom: 5px;
+    padding: 10px 0;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+    transition: transform 0.4s linear;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__label {
+    margin-bottom: 10px;
+  
+    color: black;
+  }
+
+  &__address-wrapper {
+    padding: 10px 0;
+
+    font-style: normal;
+  }
+
+  &__phone {
+    color: black;
+  }
+
+  &__address {
+    color: black;
+  }
+
+  &__remove-user {
+    @extend %standard-button;
+    
+    background-color: #df3838;
+
+    &:hover {
+      background-color: #961212;
+    }
+
+    &:active {
+      border-color: $additional-color;
+      background-color: #be2c2c;
+    }
+  }
+}

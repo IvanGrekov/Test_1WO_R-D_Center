@@ -1,0 +1,67 @@
+.form-add-user {
+  max-width: max-content;
+  padding: 15px 25px;
+
+  @extend %standard-border;
+
+  &__title {
+    margin-bottom: 30px;
+
+    text-align: center;
+    color: $main-color;
+  }
+
+  &__inputs-wrapper {
+    display: flex;
+    gap: 40px;
+  }
+
+  &__fieldset {
+    margin-bottom: 20px;
+
+    @extend %standard-border;
+  }
+
+  &__subtitle {
+    margin-bottom: 15px;
+
+    color: $main-color;
+  }
+
+  &__label {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  &__input {
+    display: block;
+    width: 250px;
+    margin-top: 10px;
+
+    &:invalid {
+      color: red;
+    }
+  }
+
+  &__helper {
+    display: block;
+
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  &__submit {
+    margin-top: 30px;
+    @extend %standard-button;
+    background-color: $main-color;
+
+    &:hover {
+      background-color: #0b58b6;
+    }
+
+    &:active {
+      border-color: $additional-color;
+      background-color: #196ed6;
+    }
+  }
+}

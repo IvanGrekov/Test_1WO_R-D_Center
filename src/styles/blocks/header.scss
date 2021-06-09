@@ -1,0 +1,18 @@
+.header {
+  &__title {
+    margin-bottom: 40px;
+
+    text-align: center;
+    color: $main-color;
+  }
+
+  &__image {
+    height: 200px;
+    margin-bottom: 60px;
+
+    background-image: url("../images/people.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

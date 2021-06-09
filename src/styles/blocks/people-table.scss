@@ -1,0 +1,44 @@
+.people-table {
+  width: 100%;
+  padding: 0 20px;
+
+  border-collapse: collapse;
+
+  &--hidden {
+    display: none;
+  }
+
+  &__cell {
+    @extend %table-cell;
+  }
+
+  &__title {
+    @extend %table-cell;
+  }
+
+  &__row {
+    cursor: pointer;
+  }
+  
+  &__row--even {
+    background-color: $main-color-light;
+  }
+  
+  &__row:hover {
+    background-color: $additional-color;
+  }
+
+  &__row--active {
+    background-color: $additional-color;
+  }
+  
+  &__title--main {
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    color: white;
+
+    background-color: $main-color;
+    cursor: pointer;
+  }
+}
