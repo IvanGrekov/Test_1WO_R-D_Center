@@ -1,12 +1,11 @@
 .user-info {
-  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 
   color: black;
 
   &__contacts {
+    margin-bottom: 40px;
     padding: 15px;
 
     @extend %standard-border;

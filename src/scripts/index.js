@@ -10,9 +10,9 @@ export const table = document.querySelector('.people-table');
 export const tableBody = document.querySelector('.people-table__body');
 export const loader = document.querySelector('.loader');
 export const userInfo = document.querySelector('.section-selected-user');
+export const inputs = document.querySelectorAll('.form-add-user__input');
 
 const form = document.querySelector('.form-add-user');
-const inputs = document.querySelectorAll('.form-add-user__input');
 
 // Beginning of the main script
 createSorters();
